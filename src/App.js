@@ -2,10 +2,10 @@ import React from 'react';
 
 import Hero from './components/Hero';
 import About from './components/About';
-
-// import ContactSection from './components/ContactSection';
-// import BookingSection from './components/BookingSection';
-// import Footer from './components/Footer';
+import Items from './components/Items';
+import ContactSection from './components/Contact';
+import BookingSection from './components/BookingSection';
+import Footer from './components/Footer';
 import Custom from './components/Custom';
 
 function App() {
@@ -14,10 +14,10 @@ function App() {
       <Custom />
       <Hero />
       <About />
-      
-      {/* <ContactSection />
+      <Items />
+      <ContactSection />
       <BookingSection />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
