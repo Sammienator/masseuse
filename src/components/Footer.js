@@ -4,6 +4,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import { AiOutlineMail, AiFillPhone } from 'react-icons/ai';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import '../styles/App.css';
 
 function FooterSection() {
   React.useEffect(() => {
@@ -16,7 +17,7 @@ function FooterSection() {
         <Row>
           <Col md={4} data-aos="fade-up">
             <div className="logo-section">
-              <h3>Spa Heaven</h3>
+              <h3> <b> Dedeh Star Spa. </b></h3>
               <p>Your ultimate destination for relaxation and rejuvenation</p>
             </div>
           </Col>
@@ -39,10 +40,10 @@ function FooterSection() {
             </div>
           </Col>
         </Row>
-        <Row className="mt-3">
-          <Col md={12} data-aos="fade-up" data-aos-delay="600">
+        <Row className="mt-3 text-center">
+          <Col md={12} >
             <div className="copyright-section">
-              <p>&copy; {new Date().getFullYear()} Spa Heaven. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Sammienator Inc. All rights reserved.</p>
             </div>
           </Col>
         </Row>

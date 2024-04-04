@@ -4,6 +4,7 @@ import { AiOutlineUser, AiOutlinePhone, AiOutlineShoppingCart } from 'react-icon
 import { BsFillGridFill } from 'react-icons/bs';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import '../styles/App.css';
 
 function BookingSection() {
   React.useEffect(() => {
@@ -43,7 +44,7 @@ function BookingSection() {
               <Form.Label>Quantity</Form.Label>
               <Form.Control type="number" placeholder="Enter quantity" />
             </Form.Group>
-            <Button variant="primary"  className='my-4 mx-4' type="submit">
+            <Button id='btn' variant="primary"  className='my-4 mx-4' type="submit">
               Book Now
             </Button>
           </Form>

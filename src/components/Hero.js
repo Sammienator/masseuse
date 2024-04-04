@@ -4,6 +4,7 @@ import { AiOutlineArrowDown } from 'react-icons/ai';
 import { Carousel } from 'react-bootstrap';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import '../styles/App.css';
 import pic11 from '../assets/pic11.jpg';
 import pic22 from '../assets/pic22.jpg';
 import pic33 from '../assets/pic33.jpg';
@@ -23,10 +24,10 @@ function HeroSection() {
             alt="First slide"
             style={{ height: '100vh', objectFit: 'cover' }}
           />
-          <div className="carousel-caption d-flex flex-column justify-content-center align-items-center">
-            <h1 data-aos="fade-up">Welcome to our Spa</h1>
-            <p data-aos="fade-up" className="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <Button variant="primary" data-aos="fade-up" className="mt-3">Learn More</Button>
+          <div className="carousel-caption d-flex flex-column justify-content-center align-items-center ">
+            <h1 data-aos="fade-up"><b> Welcome to our Spa </b> </h1>
+            <p data-aos="fade-up" className="mt-3"> <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </b></p>
+            <Button id='btn' variant="primary" data-aos="fade-up" className="mt-3"> <b> Learn More </b> </Button>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -39,7 +40,7 @@ function HeroSection() {
           <div className="carousel-caption d-flex flex-column justify-content-center align-items-center">
             <h1 data-aos="fade-up">Relax and Unwind</h1>
             <p data-aos="fade-up" className="mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-            <Button variant="primary" data-aos="fade-up" className="mt-3">Book Now</Button>
+            <Button id='btn' variant="primary" data-aos="fade-up" className="mt-3">Book Now</Button>
           </div>
         </Carousel.Item>
         <Carousel.Item>
@@ -52,7 +53,7 @@ function HeroSection() {
           <div className="carousel-caption d-flex flex-column justify-content-center align-items-center">
             <h1 data-aos="fade-up">Pamper Yourself</h1>
             <p data-aos="fade-up" className="mt-3">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias.</p>
-            <Button variant="primary" data-aos="fade-up" className="mt-3">Contact Us</Button>
+            <Button id='btn' variant="primary" data-aos="fade-up" className="mt-3">Contact Us</Button>
           </div>
         </Carousel.Item>
       </Carousel>

@@ -4,7 +4,7 @@ import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa';
 import { AiOutlineMail } from 'react-icons/ai';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import '../styles/App.css';
 import pic44 from '../assets/pic44.jpg';
 
 function ContactSection() {
@@ -15,13 +15,17 @@ function ContactSection() {
   return (
     <Container id="contact" className="py-5">
       <h2 className="text-center mb-4" data-aos="fade-up">Contact Us</h2>
+
+      <p className='text-center'> Kindly feel free to reach out to me below, for any questions, concerns or clarifications that you might have.</p>
+
+
       <Row data-aos="fade-right">
         <Col md={6}>
-          <div className="contact-info">
+          <div className="contact-info text-center">
             <h3>Contact Information</h3>
-            <p><FaMapMarkerAlt /> 123 Street Name, City, Country</p>
-            <p><FaEnvelope /> info@example.com</p>
-            <p><AiOutlineMail /> contact@example.com</p>
+            <p><FaMapMarkerAlt /> 123 Street Name, Narok, Kenya.</p>
+            <p><FaEnvelope /> dedeh@example.com</p>
+            <p><AiOutlineMail /> dedehstarspa@example.com</p>
           </div>
           <Form>
             <Form.Group controlId="formBasicName">

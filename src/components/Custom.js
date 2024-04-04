@@ -1,10 +1,11 @@
 import { Navbar, Nav, } from 'react-bootstrap';
+import '../styles/App.css';
 
 function CustomNavbar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="transparent"  variant="light" className='text-dark p-2'>
+    <Navbar id='Navbar' collapseOnSelect expand="lg" bg="transparent"  variant="light" className='text-dark p-2'>
       
-        <Navbar.Brand href="#home">Your Masseuse Business</Navbar.Brand>
+        <Navbar.Brand href="#home"><b>Dedeh Star Spa. </b> </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto  ">
